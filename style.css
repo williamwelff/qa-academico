@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #F7F2E7;
+    height: 850px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+header{
+    margin-top: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.texto {
+    margin-top: 20px;
+    min-width: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+header p{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+main .prof .aluno .logo-prof .logo-aluno img{
+    margin-left: 5px;
+    display: inline;
+    
+}
+
+main a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+    
+    
+}
+
+
+footer .dev{
+    display: flex;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+footer .img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
